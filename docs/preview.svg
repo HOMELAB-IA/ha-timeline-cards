@@ -1,0 +1,86 @@
+<svg width="560" height="460" viewBox="0 0 560 460" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+  <!-- Card background -->
+  <rect width="560" height="460" rx="16" fill="#0d1117"/>
+
+  <!-- Header -->
+  <text x="20" y="34" font-size="15" font-weight="600" fill="#e1e1e1">Automation Timeline</text>
+  <rect x="420" y="14" width="120" height="26" rx="6" fill="rgba(3,169,244,.1)" stroke="rgba(3,169,244,.25)" stroke-width="1"/>
+  <text x="480" y="31" font-size="11" fill="#03a9f4" text-anchor="middle">Dernières 24 h</text>
+
+  <!-- Divider + axis labels -->
+  <line x1="20" y1="50" x2="540" y2="50" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+  <text x="140" y="66" font-size="10" fill="rgba(255,255,255,.3)" text-anchor="middle">-6h</text>
+  <text x="246" y="66" font-size="10" fill="rgba(255,255,255,.3)" text-anchor="middle">-4h</text>
+  <text x="352" y="66" font-size="10" fill="rgba(255,255,255,.3)" text-anchor="middle">-2h</text>
+  <text x="458" y="66" font-size="10" fill="#03a9f4" text-anchor="middle">Maintenant</text>
+  <line x1="458" y1="68" x2="458" y2="440" stroke="#03a9f4" stroke-width="1.5" opacity="0.7" stroke-dasharray="4 3"/>
+
+  <!-- Lane separator line -->
+  <line x1="110" y1="68" x2="110" y2="440" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+
+  <!-- Lane 1: Réveil -->
+  <rect x="14" y="84" width="4" height="34" rx="2" fill="#1D9E75"/>
+  <text x="20" y="97" font-size="11" fill="#e1e1e1" font-weight="500">Réveil</text>
+  <text x="20" y="110" font-size="10" fill="#6b7280">automation.reveil_matin</text>
+  <rect x="114" y="84" width="88" height="34" rx="5" fill="#1D9E75" opacity="0.85"/>
+  <text x="158" y="105" font-size="10" fill="white" text-anchor="middle">06:30</text>
+  <rect x="380" y="84" width="44" height="34" rx="5" fill="#1D9E75" opacity="0.85"/>
+  <text x="402" y="105" font-size="10" fill="white" text-anchor="middle">06:30</text>
+  <circle cx="458" cy="101" r="5" fill="#5DCAA5"/>
+
+  <!-- Lane 2: Lumières -->
+  <rect x="14" y="134" width="4" height="34" rx="2" fill="#378ADD"/>
+  <text x="20" y="147" font-size="11" fill="#e1e1e1" font-weight="500">Lumières</text>
+  <text x="20" y="160" font-size="10" fill="#6b7280">automation.lumieres_auto</text>
+  <rect x="200" y="134" width="124" height="34" rx="5" fill="#378ADD" opacity="0.80"/>
+  <text x="262" y="155" font-size="10" fill="white" text-anchor="middle">18:30 – 23:00</text>
+
+  <!-- Lane 3: Présence salon (conflict) -->
+  <rect x="14" y="184" width="4" height="34" rx="2" fill="#7F77DD"/>
+  <text x="20" y="197" font-size="11" fill="#e1e1e1" font-weight="500">Présence salon</text>
+  <text x="20" y="210" font-size="10" fill="#6b7280">person.antoine</text>
+  <rect x="114" y="184" width="234" height="34" rx="5" fill="#7F77DD" opacity="0.80"/>
+  <text x="231" y="205" font-size="10" fill="white" text-anchor="middle">Présent 12h</text>
+  <path d="M344 201 L351 208 L344 215 L337 208 Z" fill="#E24B4A"/>
+  <title>Conflit détecté</title>
+  <rect x="380" y="184" width="78" height="34" rx="5" fill="#7F77DD" opacity="0.85"/>
+  <circle cx="458" cy="201" r="5" fill="#A89FEF"/>
+
+  <!-- Lane 4: Volets -->
+  <rect x="14" y="234" width="4" height="34" rx="2" fill="#EF9F27"/>
+  <text x="20" y="247" font-size="11" fill="#e1e1e1" font-weight="500">Volets</text>
+  <text x="20" y="260" font-size="10" fill="#6b7280">automation.volets</text>
+  <rect x="114" y="234" width="62" height="34" rx="5" fill="#EF9F27" opacity="0.88"/>
+  <text x="145" y="255" font-size="10" fill="white" text-anchor="middle">08:00</text>
+  <rect x="306" y="234" width="62" height="34" rx="5" fill="#EF9F27" opacity="0.88"/>
+  <text x="337" y="255" font-size="10" fill="white" text-anchor="middle">21:00</text>
+
+  <!-- Lane 5: Alarme -->
+  <rect x="14" y="284" width="4" height="34" rx="2" fill="#D85A30"/>
+  <text x="20" y="297" font-size="11" fill="#e1e1e1" font-weight="500">Alarme</text>
+  <text x="20" y="310" font-size="10" fill="#6b7280">alarm_control_panel.home</text>
+  <rect x="334" y="284" width="124" height="34" rx="5" fill="#D85A30" opacity="0.85"/>
+  <text x="396" y="305" font-size="10" fill="white" text-anchor="middle">Armée 20h00</text>
+  <circle cx="458" cy="301" r="5" fill="#F0997B"/>
+
+  <!-- Footer info bar -->
+  <line x1="20" y1="336" x2="540" y2="336" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+  <rect x="20" y="348" width="12" height="12" rx="3" fill="#E24B4A" opacity="0.8"/>
+  <text x="38" y="359" font-size="11" fill="#9b9b9b">1 conflit détecté</text>
+  <rect x="160" y="348" width="12" height="12" rx="3" fill="#5DCAA5" opacity="0.8"/>
+  <text x="178" y="359" font-size="11" fill="#9b9b9b">3 automations actives</text>
+  <text x="400" y="359" font-size="11" fill="#9b9b9b" text-anchor="middle">WebSocket HA</text>
+  <circle cx="494" cy="354" r="4" fill="#4caf50"/>
+  <text x="504" y="358" font-size="10" fill="#4caf50">EN DIRECT</text>
+
+  <!-- Concurrency / overlap band -->
+  <text x="20" y="386" font-size="11" font-weight="600" letter-spacing="1" fill="#6b7280">CONCURRENCE</text>
+  <rect x="114" y="396" width="560" height="18" rx="3" fill="rgba(3,169,244,0.04)"/>
+  <path d="M114 414 L176 408 L262 406 L348 405 L434 403 L458 404 L520 408 L540 414 Z"
+        fill="rgba(3,169,244,0.14)" stroke="#03a9f4" stroke-width="1" opacity="0.7"/>
+  <text x="124" y="430" font-size="10" fill="rgba(3,169,244,.5)">1</text>
+  <text x="210" y="430" font-size="10" fill="rgba(3,169,244,.7)">2</text>
+  <text x="306" y="430" font-size="10" fill="rgba(3,169,244,.7)">3</text>
+  <text x="402" y="430" font-size="10" fill="rgba(3,169,244,.9)">4</text>
+  <text x="456" y="430" font-size="10" fill="#03a9f4" font-weight="600">▲</text>
+</svg>

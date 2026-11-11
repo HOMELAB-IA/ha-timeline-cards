@@ -1,0 +1,23 @@
+{
+  "name": "ha-timeline-cards",
+  "version": "1.0.0",
+  "description": "Home Assistant Lovelace cards for automation and presence timelines",
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "card",
+    "hacs",
+    "timeline",
+    "automation",
+    "presence"
+  ],
+  "homepage": "https://github.com/HOMELAB-IA/ha-timeline-cards",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HOMELAB-IA/ha-timeline-cards.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "audit-check": "npm audit --audit-level=high"
+  }
+}
