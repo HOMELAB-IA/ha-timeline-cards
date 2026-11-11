@@ -24,7 +24,7 @@ Visualise les créneaux de présence/absence avec des blocs colorés et des indi
 
 ### Via HACS (recommandé)
 
-[![Ouvrir dans HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=HOMELAB-IA&repository=ha-timeline-cards&category=lovelace)
+[![Ouvrir dans HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=HOMELAB-IA&repository=ha-timeline-cards&category=plugin)
 
 Ou manuellement :
 
